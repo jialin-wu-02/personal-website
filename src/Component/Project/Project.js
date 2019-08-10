@@ -11,33 +11,39 @@ class Project extends Component {
 
   render() {
     return (
-        <div className="project-container"> 
+      <div className="project-container"> 
         <div className="row">
           <h2> My Projects </h2>
         </div>
-          <div className="row">
-            <Card>
-              Pianoo
-              loremlemloremloremoremlemloremloremoremlemloremlorem
-            </Card>
-            <Card>
-              Masion-Autiler
-              <p>loremloremloremloremloremloremloremloremlorem</p>
-            </Card>
-          </div>
-          <div className="row">
+        <div className="row">
           <Card>
-              Project-Clio
-              <p>loremloremloremloremloremloremloremloremlorem</p>
-              <p>loremloremloremloremloremloremloremloremlorem</p>
-            </Card>
-            <Card>
-              Weather Forecast
-              <p>loremloremloremloremloremloremloremloremlorem</p>
-              <p>loremloremloremloremloremloremloremloremlorem</p>
-            </Card>
-          </div>
+            <img src="/img/admin.png"/>
+            <h3> Admin Page</h3>
+          </Card>
+          <Card>
+            <img src="/img/dress.png" />
+             <h3> Masion-Autiler </h3>
+          </Card>
+          <Card>
+            <img src="/img/library.png" />
+             <h3> Project-Clio </h3>
+          </Card>
         </div>
+        <div className="row">
+        <Card>
+          <img src="/img/weather.png" />
+           <h3> Weather Forecast </h3>
+        </Card>
+        <Card>
+        <img src="/img/piano.png"  />
+           <h3> Pianoo </h3>
+        </Card>
+        <Card>
+        <img src="/img/react_logo.png" />
+           <h3> React China </h3>
+        </Card>
+        </div>
+      </div>
     );
   }
 }

@@ -9,8 +9,12 @@
     color: grey;
     font-weight: 100;
     padding: 13px;
-    width: 250px;
+    width: 30%;
 
+}
+
+.Card-container img {
+    width: 200px;
 }
 
 .Card-container > * {
