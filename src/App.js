@@ -1,19 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      <div className="container">
-        <div class="typewriter">
-          <h1>Hello, I am Jialin Wu. </h1>
-          {/* <h1>I love web and design. </h1> */}
+import Typist from 'react-typist';
+
+class App extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <div className="container">
+          <Typist>
+            &nbsp;
+            <Typist.Delay ms={2700} />
+            Hillo
+            <Typist.Backspace count={5} />
+            Hello, I am Jialin Wu.
+            <Typist.Backspace count={22} delay={1800} />
+            I am a web developer and a student at berkeley.
+          </Typist>
         </div>
       </div>
-
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
