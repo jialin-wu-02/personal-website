@@ -1,6 +1,11 @@
 .main {
     margin: 80px;
     display: flex;
+    flex-direction: column;
+    font-family: "ROBOTO";
+}
+
+.row {
     flex-direction: row;
     justify-content: space-around;
 }

@@ -3,6 +3,7 @@ import './App.css';
 
 import Title from "./Component/Title/Title"
 import Project from "./Component/Project/Project"
+import Arrow from './Component/Arrow/Arrow'
 
 class App extends Component {
 
@@ -13,23 +14,24 @@ class App extends Component {
     }
   }
 
-  projectMountHandler = (line, lineIdx) => {
-    if (lineIdx == 7) {
-      console.log("project");
-      this.setState({
-        projectDisplay: true
-      })
-    }
-    if (lineIdx == 12) {
-      console.log("scroll down");
-    }
+  onTypingDone = () => {
+    this.setState({
+      projectDisplay: true
+    })
   }
 
   render() {
     return (
       <div className="main">
-        <Title onLineTyped={this.projectMountHandler}/>
-        {this.state.projectDisplay ? <Project /> : <div className="empty-container"></div>}
+        <div className="row">
+          <Title onTypingDone={this.onTypingDone}/>
+        </div>
+        <div className="row">
+          <Arrow show={this.state.projectDisplay}/>
+        </div>
+        <div className="row">
+          {this.state.projectDisplay ? <Project /> : null}
+        </div>
       </div>
     );
   }

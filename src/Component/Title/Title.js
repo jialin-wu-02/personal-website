@@ -14,7 +14,7 @@ class Title extends Component {
       <div>
         <div className="title-container">
             <Typist startDelay={1900}
-            onLineTyped={this.props.onLineTyped} 
+            onTypingDone={this.props.onTypingDone} 
             cursor={{hideWhenDone: true}}>
             Hwllo, I am
             <Typist.Backspace count={10} />

@@ -1,0 +1,40 @@
+.Arrow {
+    font-size: 35px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 1s;
+}
+
+.Arrow.show {
+    opacity: 1; 
+    visibility: visible;
+    animation: sliding infinite 1s;
+}
+
+@-webkit-keyframes sliding {
+    0%   { transform: translateY(-5px) }
+    50%   { transform: translateY(0px); }
+    100% { transform: translateY(-5px) }
+}
+
+@-moz-keyframes sliding {
+    0%   { transform: translateY(-5px) }
+    50%   { transform: translateY(0px); }
+    100% { transform: translateY(-5px) }
+}
+
+@-o-keyframes sliding {
+    0%   { transform: translateY(-5px) }
+    50%   { transform: translateY(0px); }
+    100% { transform: translateY(-5px) }
+}
+
+@keyframes sliding {
+    0%   { transform: translateY(-5px) }
+    50%   { transform: translateY(0px); }
+    100% { transform: translateY(-5px) }
+}
+

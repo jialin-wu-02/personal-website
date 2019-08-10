@@ -12,10 +12,13 @@ class Project extends Component {
   render() {
     return (
         <div className="project-container"> 
+        <div className="row">
+          <h2> My Projects </h2>
+        </div>
           <div className="row">
             <Card>
               Pianoo
-              <p>loremloremloremloremloremloremloremloremlorem</p>
+              loremlemloremloremoremlemloremloremoremlemloremlorem
             </Card>
             <Card>
               Masion-Autiler
