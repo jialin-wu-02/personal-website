@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Project.css';
 
+import Card from '../Card/Card'
+
 class Project extends Component {
 
   constructor(props) {
@@ -10,10 +12,28 @@ class Project extends Component {
   render() {
     return (
         <div className="project-container"> 
-            Pianoo
-            Masion-Autiler
-            Project-Clio
-            Weather Forecast
+          <div className="row">
+            <Card>
+              Pianoo
+              <p>loremloremloremloremloremloremloremloremlorem</p>
+            </Card>
+            <Card>
+              Masion-Autiler
+              <p>loremloremloremloremloremloremloremloremlorem</p>
+            </Card>
+          </div>
+          <div className="row">
+          <Card>
+              Project-Clio
+              <p>loremloremloremloremloremloremloremloremlorem</p>
+              <p>loremloremloremloremloremloremloremloremlorem</p>
+            </Card>
+            <Card>
+              Weather Forecast
+              <p>loremloremloremloremloremloremloremloremlorem</p>
+              <p>loremloremloremloremloremloremloremloremlorem</p>
+            </Card>
+          </div>
         </div>
     );
   }
