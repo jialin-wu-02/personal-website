@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Typist from 'react-typist';
+import Title from "./Component/Title"
 
 class App extends Component {
 
@@ -9,20 +9,19 @@ class App extends Component {
     super(props);
   }
 
+  projectMountHandler = (line, lineIdx) => {
+    if (lineIdx == 7) {
+      console.log("project");
+    }
+    if (lineIdx == 12) {
+      console.log("scroll down");
+    }
+  }
+
   render() {
     return (
-      <div>
-        <div className="container">
-          <Typist>
-            &nbsp;
-            <Typist.Delay ms={2700} />
-            Hillo
-            <Typist.Backspace count={5} />
-            Hello, I am Jialin Wu.
-            <Typist.Backspace count={22} delay={1800} />
-            I am a web developer and a student at berkeley.
-          </Typist>
-        </div>
+      <div className="main">
+        <Title onLineTyped={this.projectMountHandler}/>
       </div>
     );
   }
