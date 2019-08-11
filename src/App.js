@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectDisplay: true
+      projectDisplay: false
     }
   }
 
@@ -24,13 +24,13 @@ class App extends Component {
     return (
       <div className="main">
         <div className="row">
-          {/* <Title onTypingDone={this.onTypingDone}/> */}
+          <Title onTypingDone={this.onTypingDone}/>
         </div>
         <div className="row">
           <Arrow show={this.state.projectDisplay}/>
         </div>
         <div className="row">
-          {this.state.projectDisplay ? <Project /> : null}
+          {this.state.projectDisplay ? <Project /> : null }
         </div>
       </div>
     );

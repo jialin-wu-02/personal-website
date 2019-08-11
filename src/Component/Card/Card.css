@@ -10,11 +10,15 @@
     font-weight: 100;
     padding: 13px;
     width: 30%;
+}
 
+.Card-container h3 {
+    font-size: 20px;
+    letter-spacing: 1.5px;
 }
 
 .Card-container img {
-    width: 200px;
+    width: 170px;
 }
 
 .Card-container > * {

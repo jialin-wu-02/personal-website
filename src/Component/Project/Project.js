@@ -7,6 +7,10 @@ class Project extends Component {
 
   constructor(props) {
     super(props);
+    // this.ProjectClasses = ['project-container'];
+    // if (props.show) {
+    //     this.ProjectClasses.push("show")
+    // }
   }
 
   render() {
@@ -22,7 +26,7 @@ class Project extends Component {
           </Card>
           <Card>
             <img src="/img/dress.png" />
-             <h3> Masion-Autiler </h3>
+             <h3> Maison-Autelier </h3>
           </Card>
           <Card>
             <img src="/img/library.png" />

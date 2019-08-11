@@ -1,14 +1,18 @@
 .project-container {
     width: 80%;
-    opacity: 0;
+    /* opacity: 0;
     transition: 1s;
-    visibility: hidden;
+    visibility: hidden; */
 }
 
-.project-container.show {
+.project-container h2 {
+    font-size: 35px;
+}
+
+/* .project-container.show {
     visibility: visible;
     opacity: 1;
-}
+} */
 
 .row {
     display: flex;
