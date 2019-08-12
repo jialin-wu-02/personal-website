@@ -3,12 +3,12 @@ import './Project.css';
 
 import Card from '../Card/Card'
 
-// import admin from '../../Asset/img/admin.png'
-// import dress from '../../Asset/img/dress.png'
-// import library from '../../Asset/img/library.png'
-// import weather from '../../Asset/img/weather.png'
-// import piano from '../../Asset/img/piano.png'
-// import react_logo from '../../Asset/img/react_logo.png'
+import admin from './img/admin.png'
+import dress from './img/dress.png'
+import library from './img/library.png'
+import weather from './img/weather.png'
+import piano from './img/piano.png'
+import react_logo from './img/react_logo.png'
 
 class Project extends Component {
 
@@ -28,29 +28,29 @@ class Project extends Component {
         </div>
         <div className="row">
           <Card>
-            <img src="/img/admin.png"/>
+            <img alt="picture for project" src={admin}/>
             <h3> Admin Page</h3>
           </Card>
           <Card>
-            <img src="/img/dress.png" />
+            <img alt="picture for project" src={dress} />
              <h3> Maison-Autelier </h3>
           </Card>
           <Card>
-            <img src="/img/library.png" />
+            <img alt="picture for project" src={library}  />
              <h3> Project-Clio </h3>
           </Card>
         </div>
         <div className="row">
         <Card>
-          <img src="/img/weather.png" />
+          <img alt="picture for project" src={weather} />
            <h3> Weather Forecast </h3>
         </Card>
         <Card>
-        <img src="/img/piano.png"  />
+        <img alt="picture for project" src={piano}  />
            <h3> Pianoo </h3>
         </Card>
         <Card>
-        <img src="/img/react_logo.png" />
+        <img alt="picture for project" src={react_logo} />
            <h3> React China </h3>
         </Card>
         </div>
