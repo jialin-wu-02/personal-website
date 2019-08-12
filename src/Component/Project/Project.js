@@ -3,6 +3,15 @@ import './Project.css';
 
 import Card from '../Card/Card'
 
+import admin from '../../Asset/img/admin.png'
+import dress from '../../Asset/img/dress.png'
+import library from '../../Asset/img/library.png'
+import weather from '../../Asset/img/weather.png'
+import piano from '../../Asset/img/piano.png'
+import react_logo from '../../Asset/img/react_logo.png'
+
+
+
 class Project extends Component {
 
   constructor(props) {
@@ -21,29 +30,29 @@ class Project extends Component {
         </div>
         <div className="row">
           <Card>
-            <img src="/img/admin.png"/>
+            <img src={admin}/>
             <h3> Admin Page</h3>
           </Card>
           <Card>
-            <img src="/img/dress.png" />
+            <img src={dress}/>
              <h3> Maison-Autelier </h3>
           </Card>
           <Card>
-            <img src="/img/library.png" />
+            <img src={library}/>
              <h3> Project-Clio </h3>
           </Card>
         </div>
         <div className="row">
         <Card>
-          <img src="/img/weather.png" />
+          <img src={weather}/>
            <h3> Weather Forecast </h3>
         </Card>
         <Card>
-        <img src="/img/piano.png"  />
+        <img src={piano}/>
            <h3> Pianoo </h3>
         </Card>
         <Card>
-        <img src="/img/react_logo.png" />
+        <img src={react_logo} />
            <h3> React China </h3>
         </Card>
         </div>

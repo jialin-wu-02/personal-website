@@ -2,7 +2,7 @@
   "name": "jialin-wu-02.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jialin-wu-02.github.io/",
+  "homepage": "https://jialin-wu-02.github.io/personal-website/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
