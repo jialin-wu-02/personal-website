@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Card.css';
+import Front from './Front.js';
+import Back from './Back.js';
 
 class Card extends Component {
 
@@ -7,13 +9,23 @@ class Card extends Component {
     super(props);
   }
 
+  blur = () => {
+    
+  }
+
   render() {
     return (
-        <div className="Card-container"> 
+        <div     
+        onMouseEnter={this.blur}
+        onMouseLeave={this.unblur}
+        className="Card-container"> 
             {this.props.children}
         </div>
     );
   }
 }
+
+Card.Front = Front;
+Card.Back = Back;
 
 export default Card;
