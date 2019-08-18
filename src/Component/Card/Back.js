@@ -10,6 +10,7 @@ class Back extends Component {
   render() {
     return (
         <div 
+        style={this.props.style}
         onMouseEnter={this.props.onMouseEnter} 
         onMouseLeave={this.props.onMouseLeave} 
         className="Back-container"> 

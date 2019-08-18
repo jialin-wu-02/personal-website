@@ -69,7 +69,10 @@ class Project extends Component {
             <img alt="" src={library}  />
              <h3> Project-Clio </h3>
           </Card.Front>
-          <Card.Back               
+          <Card.Back       
+              style={{
+                padding: "62px 20px"
+              }}        
               onMouseEnter={() => this.onMouseEnter(2)} 
               onMouseLeave={() => this.onMouseLeave(2)}>
               <p> Personal React UI Library </p>
@@ -83,7 +86,7 @@ class Project extends Component {
         <img alt="" src={weather} />
            <h3> Weather Forecast </h3>
         </Card.Front>
-        <Card.Back               
+        <Card.Back        
           onMouseEnter={() => this.onMouseEnter(3)} 
           onMouseLeave={() => this.onMouseLeave(3)}>
           <p> A web app that use D3 to visualize weather data for a given location. </p>
@@ -94,7 +97,10 @@ class Project extends Component {
         <img alt="" src={piano}  />
            <h3> Pianoo </h3>
         </Card.Front>
-        <Card.Back               
+        <Card.Back       
+          style={{
+            padding: "62px 20px"
+          }}          
           onMouseEnter={() => this.onMouseEnter(4)} 
           onMouseLeave={() => this.onMouseLeave(4)}>
           <p> An online piano simulator built by React. </p>
@@ -107,6 +113,9 @@ class Project extends Component {
           <h3> React China </h3>
         </Card.Front>
         <Card.Back               
+          style={{
+            padding: "62px 20px"
+          }}  
           onMouseEnter={() => this.onMouseEnter(5)} 
           onMouseLeave={() => this.onMouseLeave(5)}>
           <p> Translation for React China. </p>
