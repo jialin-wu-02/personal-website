@@ -48,7 +48,7 @@ class Project extends Component {
             <Card.Back               
               onMouseEnter={() => this.onMouseEnter(0)} 
               onMouseLeave={() => this.onMouseLeave(0)}>
-              <p> some lengthy words lorem asdsjhjw wejahwej ksjdksjdk thy words lorem </p>
+              <p> La Promesse's internal admin page built by React, Redux, and Express. </p>
             </Card.Back>
           </Card>
 
@@ -60,7 +60,7 @@ class Project extends Component {
           <Card.Back               
               onMouseEnter={() => this.onMouseEnter(1)} 
               onMouseLeave={() => this.onMouseLeave(1)}>
-              <p> some lengthy words lorem asdsjhjw wejahwej ksjdksjdk thy words lorem </p>
+              <p> A domestic violence prevention web app that is disguised as a fashion website. </p>
             </Card.Back>
           </Card>
 
@@ -72,7 +72,7 @@ class Project extends Component {
           <Card.Back               
               onMouseEnter={() => this.onMouseEnter(2)} 
               onMouseLeave={() => this.onMouseLeave(2)}>
-              <p> some lengthy words lorem asdsjhjw wejahwej ksjdksjdk thy words lorem </p>
+              <p> Personal React UI Library </p>
             </Card.Back>
           </Card>
         </div>
@@ -86,7 +86,7 @@ class Project extends Component {
         <Card.Back               
           onMouseEnter={() => this.onMouseEnter(3)} 
           onMouseLeave={() => this.onMouseLeave(3)}>
-          <p> some lengthy words lorem asdsjhjw wejahwej ksjdksjdk thy words lorem </p>
+          <p> A web app that use D3 to visualize weather data for a given location. </p>
         </Card.Back>
         </Card>
         <Card>
@@ -97,10 +97,9 @@ class Project extends Component {
         <Card.Back               
           onMouseEnter={() => this.onMouseEnter(4)} 
           onMouseLeave={() => this.onMouseLeave(4)}>
-          <p> some lengthy words lorem asdsjhjw wejahwej ksjdksjdk thy words lorem </p>
+          <p> An online piano simulator built by React. </p>
         </Card.Back>
         </Card>
-
 
         <Card>
         <Card.Front show={this.state.show == 5}>
@@ -110,7 +109,7 @@ class Project extends Component {
         <Card.Back               
           onMouseEnter={() => this.onMouseEnter(5)} 
           onMouseLeave={() => this.onMouseLeave(5)}>
-          <p> some lengthy words lorem asdsjhjw wejahwej ksjdksjdk thy words lorem </p>
+          <p> Translation for React China. </p>
         </Card.Back>
         </Card>
         </div>
