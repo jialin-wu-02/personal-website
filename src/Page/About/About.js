@@ -20,8 +20,8 @@ const About = (props) => (
                 Now, welcome, have fun hopping into different rabbit holes and picking up a few cobblestones along the way.
             </p>
             <br />
-            <p> A little something about <a className="link" href="/jialinwu"> me</a>. My name is Alex, a Junior student at <a className="link" href="/ucb">University of California, Berkeley</a> studying <a className="link" href="/cs"> Computer Science</a>.
-                I love <a className="link" href="/hci"> human-computer interaction</a> and <a className="link" href="/fullstack"> full stack development</a>. 
+            <p> A little something about <a className="link" href="#"> me</a>. My name is Alex, a Junior student at <a className="link" href="#">University of California, Berkeley</a> studying <a className="link" href="#"> Computer Science</a>.
+                I love <a className="link" href="#"> human-computer interaction</a> and <a className="link" href="#"> full stack development</a>. 
                 I play chess and hearthstone in my spare time.
             </p>
         </Article>

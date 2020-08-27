@@ -18,11 +18,11 @@ import {
   
 const App = (props) => {
   
-  const trackMouseMovement = (e) => {
-    let cursor = document.querySelector('#cursor');
-    cursor.style.left = e.screenX + "px";
-    cursor.style.top = (e.screenY - 102 + window.scrollY) + "px";
-  }
+  // const trackMouseMovement = (e) => {
+  //   let cursor = document.querySelector('#cursor');
+  //   cursor.style.left = e.screenX + "px";
+  //   cursor.style.top = (e.screenY - 102 + window.scrollY) + "px";
+  // }
 
   // // Trying to make cursor transition smoother while scrolling, but failed.
   // useEffect(() => {
@@ -35,19 +35,17 @@ const App = (props) => {
   // }, [])
 
   return (
-    <div className="App__mouseplayground" onMouseMove={trackMouseMovement}>
-      <div className="cursor" id="cursor">  </div>
+    <div className="App__mouseplayground">
+      {/* <div className="cursor" id="cursor">  </div> */}
       <Router>
         <div className="App__wrapper">
-          <div className="App__container__left">
+          {/* <div className="App__container__left">
             <Sidebar />
-          </div>
+          </div> */}
           <div className="App__container__right">
-            <Switch>
+            <About />
+            {/* <Switch>
               <Route exact path="/">
-                <About />
-              </Route>
-              <Route path="/about">
                 <About />
               </Route>
               <Route path="/craft">
@@ -62,7 +60,7 @@ const App = (props) => {
               <Route path="/attribute">
                 <Attribute />
               </Route>
-            </Switch>
+            </Switch> */}
           </div>
         </div>
       </Router>
